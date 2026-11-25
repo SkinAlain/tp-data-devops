@@ -1,6 +1,5 @@
 """Pipeline de données : extraire -> transformer -> charger.""" 
 
-import os
 from pathlib import Path
 
 import pandas as pd
