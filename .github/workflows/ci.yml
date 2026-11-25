@@ -27,3 +27,5 @@ jobs:
           path: output/
       - name: Construire l'image Docker
         run: docker build -t pipeline-data .
+      - name: Vérifier la qualité du code 
+        run: ruff check . 
